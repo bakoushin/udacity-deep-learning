@@ -26,3 +26,11 @@ Obviously, transfer learning won.
 | VGG16 replica trained from scratch                    | 1%       |
 | VGG16 transfer learning (Adam optimizer)              | 69%      |
 | VGG16 transfer learning (SGD optimizer with momentum) | 86%      |
+
+## Style Transfer (CNN)
+
+[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/style-transfer/style_transfer.ipynb)
+
+The model transfers the style of famous painting to a regular photograph based on the method outlined in [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf). The model leverages the fact that CNNs can extract content and style features separately. Thus they could be arbitrarily recombined.
+
+Check out this cute kitten "by Van Gogh"!
