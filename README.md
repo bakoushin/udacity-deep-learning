@@ -34,3 +34,17 @@ Obviously, transfer learning won.
 The model transfers the style of famous painting to a regular photograph based on the method outlined in [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf). The model leverages the fact that CNNs can extract content and style features separately. Thus they could be arbitrarily recombined.
 
 Check out this cute kitten "by Van Gogh"!
+
+## Generate TV Scripts (LSTM RNN)
+
+[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/generate-tv-scripts/dlnd_tv_script_generation.ipynb)
+
+RNN which generates TV-script based on a Seinfeld TV scripts dataset of scripts from 9 seasons. A set of LSTM cells which tries to predict the next word in the script based on the previous one. 11 different set of hyperparameters were tested to find out that the most modest ones work really well (little sentence length, smaller embeddings dimension, etc.).
+
+Proof that computers could generate nonsense as good as humans.
+
+> elaine: you know what? you don't have to talk to her.
+>
+> jerry: oh, i think i can get that.
+>
+> george: what? what?
