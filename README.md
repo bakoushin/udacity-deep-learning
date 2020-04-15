@@ -48,3 +48,13 @@ Proof that computers could generate nonsense as good as humans.
 > jerry: oh, i think i can get that.
 >
 > george: what? what?
+
+## Generate Human Faces (DCGAN)
+
+[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/generate-faces/dlnd_face_generation.ipynb)
+
+A Deep Convolutional Generative Adversarial Network that could generate plausible human faces.
+
+There are two networks: the first one, the Discriminator, which is strictly judging all provided images: are they either real or fake. The second one, Generator – a mastermind network, which tries to trick the Discriminator by generating human faces out of nowhere ("nowhere" is actually called "latent sample").
+
+In memoriam of Dr. Frankenstein.
