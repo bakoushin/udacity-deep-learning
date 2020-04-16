@@ -22,9 +22,9 @@ Got good results on predicting daily rental patterns.
 
 ## Dog Breed Classifier (CNN)
 
-[Jupyter Notebook: VGG16 from scratch vs. VGG16 pretrained (SGD)](https://github.com/bakoushin/udacity-deep-learning/blob/master/dog-breed-classifier-2/dog_breed_classifier.ipynb)
+[Jupyter Notebook: VGG16 from scratch vs. VGG16 pretrained (SGD)](https://github.com/bakoushin/udacity-deep-learning/blob/master/dog-breed-classifier-1/dog_breed_classifier.ipynb)
 
-[Jupyter Notebook: 3-layers CNN vs. VGG16 pretrained (Adam)](https://github.com/bakoushin/blob/master/udacity-deep-learning/dog-breed-classifier-2/dog_app.ipynb)
+[Jupyter Notebook: 3-layers CNN vs. VGG16 pretrained (Adam)](https://github.com/bakoushin/udacity-deep-learning/blob/master/dog-breed-classifier-2/dog_app.ipynb)
 
 The model detects dog breed from a given image. Fun feature: if accidentally a human is detected on the image, the app returns the most resembling dog breed.
 
