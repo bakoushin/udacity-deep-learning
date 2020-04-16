@@ -75,4 +75,4 @@ There are two networks: the first one, the Discriminator, which is strictly judg
 
 In memoriam of Dr. Frankenstein.
 
-![Machine-generated human faces](https://github.com/bakoushin/udacity-deep-learning/raw/master/images/generated-faces.jpg)
+![Machine-generated human faces](https://github.com/bakoushin/udacity-deep-learning/raw/master/images/generated-faces.png)
