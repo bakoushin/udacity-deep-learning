@@ -1,5 +1,15 @@
 # Udacity Deep Learning Nanodegree Projects
 
+List of projects I have built during [Udacity Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101) in 2020.
+
+1. Bike Rental Patterns (MLP)
+2. Dog Breed Classifier (CNN)
+3. Style Transfer (CNN)
+4. Generate TV Scripts (LSTM RNN)
+5. Generate Human Faces (DCGAN)
+
+The best way to explore these projects is to clone them in [Google Colab](https://colab.research.google.com/).
+
 ## Bike Rental Patterns (MLP)
 
 [Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/bike-rental-patterns/bike_rental_patterns.ipynb)
