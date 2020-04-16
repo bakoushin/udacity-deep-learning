@@ -12,7 +12,7 @@ The best way to explore these projects is to clone them in [Google Colab](https:
 
 ## Bike Rental Patterns (MLP)
 
-[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/bike-rental-patterns/bike_rental_patterns.ipynb)
+[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/blob/master/bike-rental-patterns/bike_rental_patterns.ipynb)
 
 Very basic multi-layer perceptron which is trained on a [bike-sharing company dataset](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset) in order to predict trends in daily bike rental ridership.
 
@@ -22,9 +22,9 @@ Got good results on predicting daily rental patterns.
 
 ## Dog Breed Classifier (CNN)
 
-[Jupyter Notebook: VGG16 from scratch vs. VGG16 pretrained (SGD)](https://github.com/bakoushin/udacity-deep-learning/dog-breed-classifier-2/dog_breed_classifier.ipynb)
+[Jupyter Notebook: VGG16 from scratch vs. VGG16 pretrained (SGD)](https://github.com/bakoushin/udacity-deep-learning/blob/master/dog-breed-classifier-2/dog_breed_classifier.ipynb)
 
-[Jupyter Notebook: 3-layers CNN vs. VGG16 pretrained (Adam)](https://github.com/bakoushin/udacity-deep-learning/dog-breed-classifier-2/dog_app.ipynb)
+[Jupyter Notebook: 3-layers CNN vs. VGG16 pretrained (Adam)](https://github.com/bakoushin/blob/master/udacity-deep-learning/dog-breed-classifier-2/dog_app.ipynb)
 
 The model detects dog breed from a given image. Fun feature: if accidentally a human is detected on the image, the app returns the most resembling dog breed.
 
@@ -43,7 +43,7 @@ Obviously, transfer learning won.
 
 ## Style Transfer (CNN)
 
-[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/style-transfer/style_transfer.ipynb)
+[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/blob/master/style-transfer/style_transfer.ipynb)
 
 The model transfers the style of famous painting to a regular photograph based on the method outlined in [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf). The model leverages the fact that CNNs can extract content and style features separately. Thus they could be arbitrarily recombined.
 
@@ -53,7 +53,7 @@ Check out this cute kitten "by Van Gogh"!
 
 ## Generate TV Scripts (LSTM RNN)
 
-[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/generate-tv-scripts/dlnd_tv_script_generation.ipynb)
+[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/blob/master/generate-tv-scripts/dlnd_tv_script_generation.ipynb)
 
 RNN which generates TV-script based on a Seinfeld TV scripts dataset of scripts from 9 seasons. A set of LSTM cells which tries to predict the next word in the script based on the previous one. 11 different set of hyperparameters were tested to find out that the most modest ones work really well (little sentence length, smaller embeddings dimension, etc.).
 
@@ -67,7 +67,7 @@ Proof that computers could generate nonsense as good as humans.
 
 ## Generate Human Faces (DCGAN)
 
-[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/generate-faces/dlnd_face_generation.ipynb)
+[Jupyter Notebook](https://github.com/bakoushin/udacity-deep-learning/blob/master/generate-faces/dlnd_face_generation.ipynb)
 
 A Deep Convolutional Generative Adversarial Network that could generate plausible human faces.
 
