@@ -18,6 +18,8 @@ Very basic multi-layer perceptron which is trained on a [bike-sharing company da
 
 Got good results on predicting daily rental patterns.
 
+![Graph showing bike rental patterns](https://github.com/bakoushin/udacity-deep-learning/raw/master/images/bike-rental-patterns.png)
+
 ## Dog Breed Classifier (CNN)
 
 [Jupyter Notebook: VGG16 from scratch vs. VGG16 pretrained (SGD)](https://github.com/bakoushin/udacity-deep-learning/dog-breed-classifier-2/dog_breed_classifier.ipynb)
@@ -25,6 +27,8 @@ Got good results on predicting daily rental patterns.
 [Jupyter Notebook: 3-layers CNN vs. VGG16 pretrained (Adam)](https://github.com/bakoushin/udacity-deep-learning/dog-breed-classifier-2/dog_app.ipynb)
 
 The model detects dog breed from a given image. Fun feature: if accidentally a human is detected on the image, the app returns the most resembling dog breed.
+
+![Images of dogs along with breed names](https://github.com/bakoushin/udacity-deep-learning/raw/master/images/dog-breed.png)
 
 Comparison of two Convolutional Neural Networks in image classification task: the one trained from scratch and the one created using transfer learning.
 
@@ -44,6 +48,8 @@ Obviously, transfer learning won.
 The model transfers the style of famous painting to a regular photograph based on the method outlined in [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf). The model leverages the fact that CNNs can extract content and style features separately. Thus they could be arbitrarily recombined.
 
 Check out this cute kitten "by Van Gogh"!
+
+![Kittens](https://github.com/bakoushin/udacity-deep-learning/raw/master/images/kitten.jpg)
 
 ## Generate TV Scripts (LSTM RNN)
 
@@ -68,3 +74,5 @@ A Deep Convolutional Generative Adversarial Network that could generate plausibl
 There are two networks: the first one, the Discriminator, which is strictly judging all provided images: are they either real or fake. The second one, Generator – a mastermind network, which tries to trick the Discriminator by generating human faces out of nowhere ("nowhere" is actually called "latent sample").
 
 In memoriam of Dr. Frankenstein.
+
+![Machine-generated human faces](https://github.com/bakoushin/udacity-deep-learning/raw/master/images/generated-faces.jpg)
